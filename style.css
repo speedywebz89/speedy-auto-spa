@@ -710,6 +710,7 @@ p.card-text:hover {
   /************HERO HEADING***********/
   .display-4 {
     font-size: 40px;
+    margin: 0 auto;
   }
   .lead {
     font-size: 14px;
