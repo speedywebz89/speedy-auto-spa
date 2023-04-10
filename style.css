@@ -87,7 +87,7 @@ body {
   position: relative;
   cursor: pointer;
   display: inline-block;
-  padding: 8px 40px;
+  padding: 10px 45px;
   background-color: #00a2e2;
   color: #fff;
   border-radius: 5px;
@@ -99,11 +99,9 @@ body {
   margin-top: 20px;
 }
 .btn:hover {
-  background-color: rgba(0, 0, 0, 0.455);
+  background-color: rgba(0, 0, 0, 0.089);
   color: #fff;
   border: solid 2px #00a2e2;
-
-  font-style: italic;
   font-weight: bolder;
 }
 /*END OF HERO BUTTON*/
@@ -205,8 +203,9 @@ body {
   width: 80%;
 }
 .btn-outline {
-  background-color: #fff;
-  padding: 7px 30px;
+  background-color: #ffffff;
+  color: #343a40;
+  padding: 7px 25px;
   margin-top: 15px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -220,12 +219,13 @@ body {
 }
 .btn-primary {
   background-color: #00a2e2;
-  padding: 7px 30px;
+  padding: 7px 25px;
   margin-top: 15px;
 }
 .btn-primary:hover {
-  color: #00a2e2;
+  color: #58595b;
   background-color: white;
+  border: none;
 }
 
 /*END OF SERVICES HEADER*/
@@ -351,12 +351,13 @@ h1.google {
   width: 200px;
   border-radius: 7px;
   box-shadow: 5px 8px 15px #4c4c4c;
-  transition: all 0.2s;
+  transition: all 0.9s;
 }
 .price-card-button:hover {
   background: #6c757d;
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   border: none;
+  font-style: normal;
 }
 .moveFromLeft {
   animation-name: moveFromLeft;
