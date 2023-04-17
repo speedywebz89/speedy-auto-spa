@@ -6,25 +6,25 @@ body {
 /********************** HEADER-HOME************************/
 .home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(images/header-img.jpeg) no-repeat center center / cover;
   background-position: 30% 70%;
 }
 /* navbar */
 .nav-menu {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
-  padding: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  padding: 15px;
   transition: all 0.7s;
 }
 .menu-item {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   color: #eee;
   transition: color 0.5s;
+  text-transform: none;
 }
 .menu-item:hover {
-  color: #00a2e2;
-  font-style: italic;
+  color: #19658b;
 }
 .nav-active {
   color: #6f95a6;
