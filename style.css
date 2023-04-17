@@ -90,7 +90,7 @@ body {
   padding: 10px 45px;
   background-color: #00a2e2;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -99,9 +99,9 @@ body {
   margin-top: 20px;
 }
 .btn:hover {
-  background-color: rgba(0, 0, 0, 0.089);
+  background-color: rgba(0, 0, 0, 0.059);
   color: #fff;
-  border: solid 2px #00a2e2;
+  border: solid 1px #fcfcfc;
   font-weight: bolder;
 }
 /*END OF HERO BUTTON*/
@@ -602,19 +602,20 @@ p.card-text:hover {
   color: #92e0ff;
   font-size: 13px;
   transition: all 0.3s;
+  text-decoration: none !important;
 }
 .footer-link:hover {
   color: #00a2e2;
-  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: solid 1px #00a2e2;
 }
 .fa:hover {
   color: #4fbde8;
   cursor: grab;
-  font-size: 26px;
 }
 
 .footer-icons {
-  font-size: 25px;
+  font-size: 20px;
 }
 .fa-envelope {
   color: rgb(234, 224, 205);
