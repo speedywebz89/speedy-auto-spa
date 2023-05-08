@@ -6,7 +6,7 @@ body {
 /********************** HEADER-HOME************************/
 .home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(images/header-img.jpeg) no-repeat center center / cover;
   background-position: 50% 100%;
 }
@@ -823,4 +823,22 @@ p.card-text:hover {
   .about-title {
     font-size: 29px;
   }
+}
+
+@media (max-width: 390px) {
+  /*HERO SECTION*/
+  .nav-logo {
+    height: 40px;
+    width: 220px;
+  }
+  .display-4 {
+    font-size: 37px;
+    margin: 0 auto;
+  }
+  .lead {
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  /************HERO HEADING***********/
 }
