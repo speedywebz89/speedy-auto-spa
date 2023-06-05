@@ -285,7 +285,7 @@ body {
   color: rgb(72, 72, 72);
 }
 .h1-services {
-  color: #00a2e2;
+  color: rgb(255, 162, 0);
 }
 .perfect {
   color: #00a2e2;
@@ -656,6 +656,11 @@ p.card-text:hover {
 }
 
 /*contact page media queries*/
+@media (max-width: 933px) {
+  .services-fptb {
+    font-size: 31px;
+  }
+}
 
 @media (max-width: 640px) {
   #contact-b .contact-info,
@@ -685,6 +690,9 @@ p.card-text:hover {
   }
   #contact-c h1 {
     font-size: 2rem;
+  }
+  .services-fptb {
+    font-size: 20px;
   }
 }
 
@@ -840,5 +848,10 @@ p.card-text:hover {
     margin-bottom: 20px;
     font-weight: bold;
   }
+
+  .services-fptb {
+    font-size: 16px;
+  }
+
   /************HERO HEADING***********/
 }
