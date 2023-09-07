@@ -6,7 +6,7 @@ body {
 /********************** HEADER-HOME************************/
 .home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
     url(images/header-img.jpeg) no-repeat center center / cover;
   background-position: 50% 100%;
 }
@@ -20,14 +20,14 @@ body {
   font-size: 14px;
   letter-spacing: 1px;
   color: #eee;
-  transition: color 0.5s;
+  transition: color 0.7s;
   text-transform: none;
 }
 .menu-item:hover {
-  color: #19658b;
+  color: #3aacd8;
 }
 .nav-active {
-  color: #6f95a6;
+  color: #72cff3;
 }
 .line1,
 .line2,
@@ -78,6 +78,7 @@ body {
 }
 .service {
   color: #00a2e2;
+  font-style: italic;
 }
 .services-fptb {
   font-size: 48px;
@@ -87,7 +88,7 @@ body {
   position: relative;
   cursor: pointer;
   display: inline-block;
-  padding: 10px 45px;
+  padding: 11px 55px;
   background-color: #0498d3;
   color: #fff;
   border-radius: 3px;
@@ -102,7 +103,13 @@ body {
   background-color: rgba(0, 0, 0, 0.059);
   color: #fff;
   border: solid 1px #fff;
-  font-weight: bolder;
+}
+.fa-hero-book {
+  color: #585858;
+  padding-right: 5px;
+}
+.fa-hero-book:hover {
+  color: #00a2e2;
 }
 /*END OF HERO BUTTON*/
 @keyframes anim {
@@ -516,7 +523,7 @@ p.card-text:hover {
 
 .contact-header {
   height: 85vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
     url(images/hero-img2.jpg) no-repeat center center / cover;
   background-position: 50% 50%;
 }
