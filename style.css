@@ -112,9 +112,11 @@ body {
   color: #00a2e2;
 }
 /*END OF HERO BUTTON*/
+
+/*HEADER INFO ANIMATION*/
 @keyframes anim {
   0% {
-    transform: translateX(-100px);
+    transform: translateX(-125px);
     opacity: 0;
   }
   100% {
@@ -125,6 +127,8 @@ body {
 .services-icons {
   color: #00a2e2;
 }
+/*END - HEADER INFO ANIMATION*/
+
 /* end of banner */
 /* end of header */
 
@@ -371,15 +375,15 @@ h1.google {
 }
 .moveFromLeft {
   animation-name: moveFromLeft;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 .moveFromRight {
   animation-name: moveFromRight;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 .moveFromBottom {
   animation-name: moveFromBottom;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 p.card-text {
@@ -436,11 +440,11 @@ p.card-text:hover {
 
 .fromLeft {
   animation-name: fromLeft;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 .fromRight {
   animation-name: fromRight;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 @keyframes fromLeft {
   0% {
