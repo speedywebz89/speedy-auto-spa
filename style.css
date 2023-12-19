@@ -78,7 +78,6 @@ body {
 }
 .service {
   color: #00a2e2;
-  font-style: italic;
 }
 .services-fptb {
   font-size: 48px;
@@ -88,7 +87,7 @@ body {
   position: relative;
   cursor: pointer;
   display: inline-block;
-  padding: 11px 55px;
+  padding: 10px 60px;
   background-color: #0498d3;
   color: #fff;
   border-radius: 3px;
@@ -102,7 +101,8 @@ body {
 .btn:hover {
   background-color: rgba(0, 0, 0, 0.059);
   color: #fff;
-  border: solid 1px #fff;
+  border: solid 1px #0498d3;
+  font-weight: bold;
 }
 .fa-hero-book {
   color: #585858;
@@ -204,7 +204,7 @@ body {
   height: 85vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url(images/hero-img.jpg) no-repeat center center / cover;
-  background-position: 50% 3%;
+  background-position: 20% 90%;
 }
 .banner-services {
   position: absolute;
@@ -361,17 +361,16 @@ h1.google {
   margin: auto;
 }
 .price-card-button {
-  background: #00a2e2;
+  background: #0498d3;
   width: 200px;
   border-radius: 7px;
   box-shadow: 5px 8px 15px #4c4c4c;
   transition: all 0.9s;
 }
 .price-card-button:hover {
-  background: #6c757d;
+  background: #2d2d2d;
   transform: translateY(-3px);
-  border: none;
-  font-style: normal;
+  font-style: bold;
 }
 .moveFromLeft {
   animation-name: moveFromLeft;
@@ -527,7 +526,7 @@ p.card-text:hover {
 
 .contact-header {
   height: 85vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url(images/hero-img2.jpg) no-repeat center center / cover;
   background-position: 50% 50%;
 }
