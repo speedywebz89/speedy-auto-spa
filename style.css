@@ -66,9 +66,12 @@ body {
 }
 .banner-heading {
   animation-name: anim;
-  animation-duration: 4s;
+  animation-duration: 2.7s;
   text-align: center;
 }
+
+/*HERO BUTTON JS TRIGGER ANIMATION*/
+
 .banner-par {
   animation-name: anim;
   animation-duration: 2s;
@@ -101,7 +104,7 @@ body {
 .btn:hover {
   background-color: rgba(0, 0, 0, 0.059);
   color: #fff;
-  border: solid 1px #0498d3;
+  border: solid 1px #ffffff;
   font-weight: bold;
 }
 .fa-hero-book {
@@ -116,7 +119,7 @@ body {
 /*HEADER INFO ANIMATION*/
 @keyframes anim {
   0% {
-    transform: translateX(-125px);
+    transform: translateX(-100px);
     opacity: 0;
   }
   100% {
@@ -643,7 +646,7 @@ p.card-text:hover {
   color: #f74949;
 }
 .footer-copy {
-  font-size: 14px;
+  font-size: 13px;
 }
 .speedy {
   color: rgb(255, 162, 0);
