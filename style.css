@@ -289,7 +289,7 @@ body {
 }
 .UV {
   color: #343a40;
-  font-style: italic;
+  font-weight: bold;
 }
 /********SERVICES 2-COL PARAGRAPH********/
 .p-services {
@@ -303,6 +303,7 @@ body {
 }
 .perfect {
   color: #00a2e2;
+  font-weight: bold;
 }
 
 /***********END OF SERVICES PAGE*************/
@@ -529,7 +530,7 @@ p.card-text:hover {
 
 .contact-header {
   height: 85vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
     url(images/hero-img2.jpg) no-repeat center center / cover;
   background-position: 50% 50%;
 }
