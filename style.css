@@ -52,8 +52,8 @@ body {
 }
 .nav-logo {
   position: relative;
-  height: 50px;
-  width: 325px;
+  height: 100px;
+  width: 400px;
 }
 /* end of navbar */
 /* banner */
@@ -731,8 +731,8 @@ p.card-text:hover {
   }
   /*HERO SECTION*/
   .nav-logo {
-    height: 40px;
-    width: 255px;
+    height: 500px;
+    width: 500px;
   }
   /************HERO HEADING***********/
   .display-4 {
