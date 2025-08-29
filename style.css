@@ -6,9 +6,9 @@ body {
 /********************** HEADER-HOME************************/
 .home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
-    url(images/header-img.jpeg) no-repeat center center / cover;
-  background-position: 50% 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(images/header-img.png) no-repeat center center / cover;
+  background-position: 50% 10%;
 }
 /* navbar */
 .nav-menu {
@@ -52,8 +52,8 @@ body {
 }
 .nav-logo {
   position: relative;
-  height: 100px;
-  width: 400px;
+  height: 160px;
+  width: 250px;
 }
 /* end of navbar */
 /* banner */
@@ -304,6 +304,11 @@ body {
 .perfect {
   color: #00a2e2;
   font-weight: bold;
+}
+.h1-call {
+  color: #00a2e2;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /***********END OF SERVICES PAGE*************/
