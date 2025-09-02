@@ -736,8 +736,8 @@ p.card-text:hover {
   }
   /*HERO SECTION*/
   .nav-logo {
-    height: 500px;
-    width: 500px;
+    height: 125px;
+    width: 175px;
   }
   /************HERO HEADING***********/
   .display-4 {
@@ -855,8 +855,8 @@ p.card-text:hover {
 @media (max-width: 390px) {
   /*HERO SECTION*/
   .nav-logo {
-    height: 40px;
-    width: 220px;
+    height: 95px;
+    width: 150px;
   }
   .display-4 {
     font-size: 37px;
